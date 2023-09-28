@@ -75,6 +75,7 @@ h2 {
     h3 {
         @include subtitulos;
     }
+
     p {
         @include texto;
     }
@@ -106,7 +107,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 23px;
     border: 5px dotted $colorFooter;
     border-radius: 20px;
     background-image: url(./img/pexels-miguel-á-padriñán-255379.jpg);
@@ -116,7 +117,7 @@ h1 {
     @include texto;
 
     &:active {
-        font-size: 25px;
+        font-size: 20px;
         border: 8px dotted $colorHover;
         background-color: $colorFooter;
         color: $colorNav;
@@ -130,16 +131,16 @@ h1 {
 
 /* INICIA SKILLS */
 
-.menu-skills {
-    background-position: center;
-    background-size: cover;
-}
+// .menu-skills {
+//     background-position: center;
+//     background-size: cover;
+// }
 
 .article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    //align-items: center;
     border: 1px solid black;
     text-align: center;
     border-radius: 10px;
@@ -153,7 +154,7 @@ h1 {
 .languages-logo {
     height: 150px;
     width: 50%;
-
+    margin: 15px;
     /* border-radius: 8px 8px 0px 0px; */
     /* background-image: url(img/logo2.png);  */
     background-size: cover;
@@ -225,3 +226,69 @@ h1 {
 }
 
 /* FIN PROYECTOS */
+
+/*ajustes responsive*/
+/*Vista Tablet- desde 768px a 1020px*/
+
+@media (max-width:1023px) {
+
+    /*home*/
+    .navbar {
+        // height: 70px;
+
+        .nav-icon {
+            width: 60px;
+        }
+
+        .nav-link {
+            font-size: 18px;
+        }
+    }
+
+    .text-white h1 {
+        font-size: 35px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .nright {
+        margin-bottom: 25px;
+
+        p {
+            width: 100vh;
+            text-align: center;
+        }
+    }
+
+    .nleft {
+        width: 150vh;
+        height: 500px;
+
+    }
+
+    /*Sobre mi*/
+    .nright-sobremi {
+        font-size: 25px;
+        width: 500px;
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .nleft-sobremi {
+        width: 500px;
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+    /*skills*/
+
+
+}

@@ -246,7 +246,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  font-size: 23px;
   border: 5px dotted #073846;
   border-radius: 20px;
   background-image: url(./img/pexels-miguel-á-padriñán-255379.jpg);
@@ -257,7 +257,7 @@ h1 {
   color: #073846;
 }
 .nright-sobremi:active {
-  font-size: 25px;
+  font-size: 20px;
   border: 8px dotted #ef4d75;
   background-color: #073846;
   color: #09687e;
@@ -267,16 +267,7 @@ h1 {
 
 /* FIN SOBRE MI */
 /* INICIA SKILLS */
-.menu-skills {
-  background-position: center;
-  background-size: cover;
-}
-
 .article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid black;
   text-align: center;
   border-radius: 10px;
@@ -290,6 +281,7 @@ h1 {
 .languages-logo {
   height: 150px;
   width: 50%;
+  margin: 15px;
   /* border-radius: 8px 8px 0px 0px; */
   /* background-image: url(img/logo2.png);  */
   background-size: cover;
@@ -363,5 +355,48 @@ h1 {
 }
 
 /* FIN PROYECTOS */
+/*ajustes responsive*/
+/*Vista Tablet- desde 768px a 1020px*/
+@media (max-width: 1023px) {
+  /*home*/
+  .navbar .nav-icon {
+    width: 60px;
+  }
+  .navbar .nav-link {
+    font-size: 18px;
+  }
+  .text-white h1 {
+    font-size: 35px;
+  }
+  .row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .nright {
+    margin-bottom: 25px;
+  }
+  .nright p {
+    width: 100vh;
+    text-align: center;
+  }
+  .nleft {
+    width: 150vh;
+    height: 500px;
+  }
+  /*Sobre mi*/
+  .nright-sobremi {
+    font-size: 25px;
+    width: 500px;
+  }
+  .nright-sobremi p {
+    font-size: 18px;
+  }
+  .nleft-sobremi {
+    width: 500px;
+  }
+}
+@media (max-width: 767px) {
+  /*skills*/
+}
 
 /*# sourceMappingURL=estilos.css.map */
