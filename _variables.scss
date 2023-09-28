@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&family=Roboto+Slab:wght@300&family=Slabo+27px&display=swap');
+
+//font-family: 'Libre Baskerville', serif;
+//font-family: 'Mooli', sans-serif;
+//font-family: 'Slabo 27px', serif;
+//font-family: 'Roboto Slab', serif;
+
+//Font
+$fontText: 'Mooli', sans-serif;
+$fontTitulos:'Slabo 27px', serif;
+$fontSubtitulos:'Roboto Slab', serif;
+
+//color
+$colorNav: #09687e;
+$colorHover: #ef4d75;
+$colorFooter: #073846;
+$colorTitulos: #ef4d75;
+$colorSubtitulos: #073846;
+$color1: white;
+$color2: plum;
+
+//mixin
+@mixin titulos {
+    font-family: $fontTitulos;
+    color: $colorTitulos;
+    text-align: center;
+    padding: 10px;
+    font-size: 55px;
+    text-shadow: 1px 1px 0.5px $colorFooter;
+    font-weight: 800;
+}
+@mixin subtitulos {
+    font-family: $fontSubtitulos;
+    color: $colorSubtitulos;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@mixin texto {
+    font-family: $fontText;
+    color: $colorSubtitulos;
+}
+

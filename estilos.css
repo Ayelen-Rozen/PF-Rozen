@@ -1,0 +1,367 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&family=Roboto+Slab:wght@300&family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&family=Roboto+Slab:wght@300&family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&family=Roboto+Slab:wght@300&family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&family=Roboto+Slab:wght@300&family=Slabo+27px&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* BARRA NAVEGACION */
+.navbar {
+  background-color: #09687e;
+  box-shadow: 10px 10px 15px;
+  position: sticky;
+  /* position: -webkit-sticky; */
+  top: -1px;
+  /* font-weight: 500; */
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+.nav-link {
+  /* color: yellow !important; */
+  color: white !important;
+}
+
+.nav-item:hover {
+  background-color: #ef4d75;
+  border-radius: 5px;
+}
+
+.nav-icon {
+  border-radius: 50%;
+  width: 90px;
+  padding: 2px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 15px;
+  /* Espacio entre la imagen y el span */
+}
+
+/* footer */
+footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #073846;
+  /* position: absolute; */
+  bottom: 0;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  font-family: "PT Sans", sans-serif;
+}
+footer p {
+  margin-bottom: 20px;
+}
+
+.redes a {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+.redes i {
+  letter-spacing: 20px;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  color: #073846;
+  background-color: white;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+  box-shadow: 0 0 8px #073846;
+}
+
+/* FIN FOOTER */
+/* INICIA CONTACTAME */
+.formulario {
+  font-family: "Mooli", sans-serif;
+  background-color: rgba(255, 255, 255, 0.432);
+  margin: auto;
+  margin-bottom: 15px;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  padding: 72px 32px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 1px #073846;
+  text-align: center;
+}
+.formulario input {
+  font-family: "Mooli", sans-serif;
+  color: #073846;
+  padding: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+.formulario .form-group {
+  text-align: start;
+}
+.formulario #form-textarea {
+  width: 100%;
+}
+.formulario .button-form {
+  border: 2px solid #073846;
+  background-color: #073846;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-style: double;
+  padding: 8px;
+  color: white;
+  box-shadow: 2px 1px #073846;
+}
+.formulario .button-form:hover {
+  background-color: #ef4d75;
+  color: white;
+}
+
+/*FIN FORMUALRIO*/
+/* HOME */
+.jumbotron {
+  background-image: url(img/Color\ Space.png);
+  background-size: cover;
+  background-position: center;
+  border-top: 0px solid white;
+  /* color: yellow !important;  */
+}
+.jumbotron h1 {
+  color: white;
+  text-shadow: 0px 0px 1px white;
+  text-align: center;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  background-color: #ef4d75;
+  color: white;
+  border: 1px dotted white;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 5px 35px;
+  font-size: 20px;
+}
+.button1:hover {
+  background-color: plum;
+  color: white;
+  transform: scale(0.9);
+  transition: 1.1s;
+}
+
+.jumbotron .btn:hover {
+  background-color: plum;
+  color: white;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  color: #073846;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0px;
+  margin-bottom: none;
+}
+
+.nleft {
+  height: 450px;
+  width: 350;
+  background-image: url(img/captura-proyecto.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.nright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Mooli", sans-serif;
+  margin-bottom: 250px;
+  color: #09687e;
+}
+.nright h3 {
+  font-family: "Roboto Slab", serif;
+  color: #073846;
+  font-size: 30px;
+  font-weight: 700;
+}
+.nright p {
+  font-family: "Mooli", sans-serif;
+  color: #073846;
+}
+
+/*FIN HOME*/
+/* INICIA SOBRE MI */
+h1 {
+  font-family: "Slabo 27px", serif;
+  color: #ef4d75;
+  text-align: center;
+  padding: 10px;
+  font-size: 55px;
+  text-shadow: 1px 1px 0.5px #073846;
+  font-weight: 800;
+}
+
+.nleft-sobremi {
+  height: 450px;
+  width: 350;
+  background-image: url(img/miFoto.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.nright-sobremi {
+  height: 450px;
+  width: 350;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: 5px dotted #073846;
+  border-radius: 20px;
+  background-image: url(./img/pexels-miguel-á-padriñán-255379.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15px;
+  font-family: "Mooli", sans-serif;
+  color: #073846;
+}
+.nright-sobremi:active {
+  font-size: 25px;
+  border: 8px dotted #ef4d75;
+  background-color: #073846;
+  color: #09687e;
+  transform: scale(0.9);
+  transition: 1.1s;
+}
+
+/* FIN SOBRE MI */
+/* INICIA SKILLS */
+.menu-skills {
+  background-position: center;
+  background-size: cover;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Mooli", sans-serif;
+  color: #073846;
+  padding-bottom: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.languages-logo {
+  height: 150px;
+  width: 50%;
+  /* border-radius: 8px 8px 0px 0px; */
+  /* background-image: url(img/logo2.png);  */
+  background-size: cover;
+  background-position: center;
+}
+
+.article h3 {
+  font-family: "Roboto Slab", serif;
+  color: #073846;
+  font-size: 30px;
+  font-weight: 700;
+}
+.article p {
+  font-family: "Mooli", sans-serif;
+  color: #073846;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.button-skills {
+  border: 2px solid #073846;
+  background-color: #073846;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-style: double;
+  padding: 8px;
+  color: white;
+  box-shadow: 2px 1px #073846;
+}
+.button-skills:hover {
+  background-color: #ef4d75;
+  color: white;
+}
+
+/* FIN SKILLS */
+/* INICIA PROYECTOS */
+.proyectos {
+  height: calc(100vh - 100px);
+  width: 100%;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.proyectos img {
+  width: 550px;
+  height: 400px;
+  border-radius: 10px;
+}
+.proyectos h1 {
+  font-family: "Slabo 27px", serif;
+  color: #ef4d75;
+  text-align: center;
+  padding: 10px;
+  font-size: 55px;
+  text-shadow: 1px 1px 0.5px #073846;
+  font-weight: 800;
+}
+.proyectos h2 {
+  font-family: "Roboto Slab", serif;
+  color: #073846;
+  font-size: 30px;
+  font-weight: 700;
+}
+.proyectos p {
+  font-family: "Mooli", sans-serif;
+  color: #073846;
+}
+
+/* FIN PROYECTOS */
+
+/*# sourceMappingURL=estilos.css.map */

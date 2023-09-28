@@ -1,0 +1,49 @@
+@import "variables";
+
+/* INICIA CONTACTAME */
+
+.formulario {
+    font-family: $fontText;
+    background-color: rgba(255, 255, 255, 0.432);
+    margin: auto;
+    margin-bottom: 15px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    padding: 72px 32px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 1px $colorFooter;
+    text-align: center;
+
+    input {
+        font-family: $fontText;
+        color: $colorFooter;
+        padding: 0px 10px 0px 10px;
+        cursor: pointer;
+    }
+    .form-group{
+        text-align: start;
+    }
+    #form-textarea{
+        width: 100%;
+    }
+
+    .button-form {
+        border: 2px solid $colorFooter;
+        background-color: $colorFooter;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        border-style: double;
+        padding: 8px;
+        color: $color1;
+        box-shadow: 2px 1px $colorFooter;
+    
+        &:hover {
+            background-color: $colorHover;
+            color: $color1;
+        }
+    }
+}
+
+/*FIN FORMUALRIO*/

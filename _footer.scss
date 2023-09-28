@@ -1,0 +1,49 @@
+@import "variables";
+
+/* footer */
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: $colorFooter;
+
+    /* position: absolute; */
+    bottom: 0;
+    color: $color1;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    font-family: 'PT Sans', sans-serif;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.redes {
+    a {
+        font-size: 50px;
+        text-decoration: none;
+        color: $color1;
+    }
+
+    i {
+        letter-spacing: 20px;
+    }
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    color: $colorFooter;
+    background-color: $color1;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    box-shadow: 0 0 8px $colorFooter;
+}
+
+/* FIN FOOTER */
