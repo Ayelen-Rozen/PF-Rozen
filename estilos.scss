@@ -196,7 +196,7 @@ h1 {
 /* INICIA PROYECTOS */
 
 .proyectos {
-    height: calc(100vh - 100px);
+    z-index: 99;
     width: 100%;
     background-color: $color1;
     padding-top: 20px;
@@ -223,7 +223,7 @@ h1 {
     padding: 20px;
     grid-gap: 15px;
     margin-top: 20px;
-    ;
+    cursor: pointer;;
 }
 
 .item {
