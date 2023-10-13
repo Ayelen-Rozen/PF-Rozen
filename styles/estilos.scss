@@ -8,12 +8,10 @@
 
 /* HOME */
 .jumbotron {
-    background-image: url(img/Color\ Space.png);
+    background-image: url(./../img/Color\ Space.png);
     background-size: cover;
     background-position: center;
     border-top: 0px solid $color1;
-
-    /* color: yellow !important;  */
 
     h1 {
         color: $color1;
@@ -52,16 +50,6 @@ h2 {
     margin-bottom: none;
 }
 
-.nleft {
-    height: 450px;
-    width: 350;
-    background-image: url(img/captura-proyecto.png);
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
 .nright {
     display: flex;
     flex-direction: column;
@@ -71,6 +59,7 @@ h2 {
     font-family: $fontText;
     margin-bottom: 250px;
     color: #09687e;
+    text-align: center;
 
     h3 {
         @include subtitulos;
@@ -132,16 +121,11 @@ h1 {
 
 /* INICIA SKILLS */
 
-// .col-sm-12{
-//     width: 50% !important;
-// }
-// .col-xl-2 {
-//     width: 50% !important;
-// }
-// .col-md-6{
-//     width: 50% !important;
-// }
-
+.row{
+background-image: url(./img/background-pages.jpg);
+background-position: center;
+background-size: cover;
+}
 .article {
     border: 1px solid black;
     text-align: center;
@@ -155,7 +139,7 @@ h1 {
 
 .languages-logo {
     height: 150px;
-    width: 50%;
+    width: auto;
     margin: 15px;
     background-size: cover;
     background-position: center;
@@ -215,15 +199,16 @@ h1 {
 }
 
 .galeria {
-
-    width: 100%;
+    overflow-y: hidden;
+    width: 95%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 200px);
     padding: 20px;
     grid-gap: 15px;
     margin-top: 20px;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .item {
@@ -312,16 +297,15 @@ h1 {
         margin-bottom: 25px;
 
         p {
-            // width: 100vh;
             text-align: center;
         }
     }
 
-    .nleft {
-        width: 150vh;
-        height: 500px;
+    // .nleft {
+    //     width: 150vh;
+    //     height: 500px;
 
-    }
+    // }
 
     /*Sobre mi*/
     .nright-sobremi {

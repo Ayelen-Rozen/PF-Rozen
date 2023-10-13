@@ -152,11 +152,10 @@ footer p {
 /*FIN FORMUALRIO*/
 /* HOME */
 .jumbotron {
-  background-image: url(img/Color\ Space.png);
+  background-image: url(./../img/Color\ Space.png);
   background-size: cover;
   background-position: center;
   border-top: 0px solid white;
-  /* color: yellow !important;  */
 }
 .jumbotron h1 {
   color: white;
@@ -196,16 +195,6 @@ h2 {
   margin-bottom: none;
 }
 
-.nleft {
-  height: 450px;
-  width: 350;
-  background-image: url(img/captura-proyecto.png);
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
-
 .nright {
   display: flex;
   flex-direction: column;
@@ -215,6 +204,7 @@ h2 {
   font-family: "Mooli", sans-serif;
   margin-bottom: 250px;
   color: #09687e;
+  text-align: center;
 }
 .nright h3 {
   font-family: "Roboto Slab", serif;
@@ -278,6 +268,12 @@ h1 {
 
 /* FIN SOBRE MI */
 /* INICIA SKILLS */
+.row {
+  background-image: url(./img/background-pages.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .article {
   border: 1px solid black;
   text-align: center;
@@ -291,7 +287,7 @@ h1 {
 
 .languages-logo {
   height: 150px;
-  width: 50%;
+  width: auto;
   margin: 15px;
   background-size: cover;
   background-position: center;
@@ -354,7 +350,9 @@ h1 {
 }
 
 .galeria {
-  width: 100%;
+  overflow-y: hidden;
+  width: 95%;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(8, 200px);
@@ -436,10 +434,6 @@ h1 {
   }
   .nright p {
     text-align: center;
-  }
-  .nleft {
-    width: 150vh;
-    height: 500px;
   }
   /*Sobre mi*/
   .nright-sobremi {
