@@ -25,9 +25,7 @@ body {
   background-color: #09687e;
   box-shadow: 10px 10px 15px;
   position: sticky;
-  /* position: -webkit-sticky; */
   top: -1px;
-  /* font-weight: 500; */
 }
 
 .navbar-collapse {
@@ -37,7 +35,6 @@ body {
 }
 
 .nav-link {
-  /* color: yellow !important; */
   color: white !important;
 }
 
@@ -98,7 +95,7 @@ footer p {
 /* FIN FOOTER */
 /* INICIA CONTACTAME */
 .contacto {
-  background-image: url(./img/background-pages.jpg);
+  background-image: url(./../img/background-pages.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -152,7 +149,7 @@ footer p {
 /*FIN FORMUALRIO*/
 /* HOME */
 .jumbotron {
-  background-image: url(./../img/Color\ Space.png);
+  background-image: url(./../img/ColorSpace.png);
   background-size: cover;
   background-position: center;
   border-top: 0px solid white;
@@ -215,6 +212,7 @@ h2 {
 .nright p {
   font-family: "Mooli", sans-serif;
   color: #073846;
+  width: auto;
 }
 
 /*FIN HOME*/
@@ -232,7 +230,7 @@ h1 {
 .nleft-sobremi {
   height: 450px;
   width: 350;
-  background-image: url(img/miFoto.jpeg);
+  background-image: url(./../img/miFoto.jpeg);
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
@@ -250,7 +248,7 @@ h1 {
   font-size: 23px;
   border: 5px dotted #073846;
   border-radius: 20px;
-  background-image: url(./img/pexels-miguel-á-padriñán-255379.jpg);
+  background-image: url(./../img/pexels-miguel-á-padriñán-255379.jpg);
   background-position: center;
   background-size: cover;
   margin-bottom: 15px;
@@ -269,7 +267,7 @@ h1 {
 /* FIN SOBRE MI */
 /* INICIA SKILLS */
 .row {
-  background-image: url(./img/background-pages.jpg);
+  background-image: url(./../img/background-pages.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -367,45 +365,43 @@ h1 {
   background-position: center;
   border: 4px solid #073846;
   transition: all 0.9s;
-  filter: grayscale(50%);
   box-shadow: 0 0 5px 0px #073846;
 }
 .item:hover {
   filter: grayscale(100%);
   transform: scale(1.09);
-  /* transform: scale(0.9); */
 }
 
 .item1 {
-  background-image: url(./img/item1.jpg);
+  background-image: url(./../img/item1.jpg);
 }
 
 .item2 {
-  background-image: url(./img/item2.jpg);
+  background-image: url(./../img/item2.jpg);
 }
 
 .item3 {
-  background-image: url(./img/item3.jpg);
+  background-image: url(./../img/item3.jpg);
 }
 
 .item4 {
-  background-image: url(./img/item4.jpg);
+  background-image: url(./../img/item4.jpg);
 }
 
 .item5 {
-  background-image: url(./img/item5.png);
+  background-image: url(./../img/item5.png);
 }
 
 .item6 {
-  background-image: url(./img/item6.png);
+  background-image: url(./../img/item6.png);
 }
 
 .item7 {
-  background-image: url(./img/item7.jpg);
+  background-image: url(./../img/item7.jpg);
 }
 
 .item8 {
-  background-image: url(./img/item8.png);
+  background-image: url(./../img/item8.png);
 }
 
 /* FIN PROYECTOS */
@@ -423,7 +419,6 @@ h1 {
     font-size: 35px;
   }
   .row {
-    flex-direction: column-reverse;
     align-items: center;
   }
   .row .article {
@@ -434,6 +429,7 @@ h1 {
   }
   .nright p {
     text-align: center;
+    font-size: 14px;
   }
   /*Sobre mi*/
   .nright-sobremi {
@@ -461,6 +457,12 @@ h1 {
   .sobre-mi h1 {
     font-size: 40px;
   }
+  .text-white h1 {
+    font-size: 30px;
+  }
+  .nright p {
+    font-size: 15px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1767px) {
   .row {
@@ -481,6 +483,12 @@ h1 {
   }
   .title-pages h1 {
     font-size: 40px;
+  }
+  .nright {
+    font-size: 15px;
+  }
+  .text-white h1 {
+    font-size: 30px;
   }
 }
 /*proyectos*/
