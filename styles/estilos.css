@@ -266,12 +266,6 @@ h1 {
 
 /* FIN SOBRE MI */
 /* INICIA SKILLS */
-.row {
-  background-image: url(./../img/background-pages.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
 .article {
   border: 1px solid black;
   text-align: center;
@@ -489,6 +483,16 @@ h1 {
   }
   .text-white h1 {
     font-size: 30px;
+  }
+  .nright-sobremi {
+    font-size: 18px;
+    width: auto;
+  }
+  .nright-sobremi p {
+    font-size: 16px;
+  }
+  .nleft-sobremi {
+    width: 100%;
   }
 }
 /*proyectos*/
